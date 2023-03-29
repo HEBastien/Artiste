@@ -49,7 +49,7 @@
                 <span class="fw-bold">Year : <?= $disc->disc_year ?> </span><br>
                 <span class="fw-bold">Genre : <?= $disc->disc_genre ?></span><br>
             </p><br><br>
-            <button type="button" class="btn btn-primary">Détails</button>
+            <a href="disc_detail.php?id=<?= $disc->disc_id ?>"><button type="button" class="btn btn-primary">Détails</button></a>
             </div>
         </div>
     </div>
